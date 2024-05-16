@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="507" height="282" viewBox="0 0 507 282">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.878" y1="0.199" x2="0.1" y2="0.838" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2ca6ae"/>
+      <stop offset="1" stop-color="#0968b2"/>
+    </linearGradient>
+    <filter id="Retângulo_22" x="0" y="0" width="507" height="282" filterUnits="userSpaceOnUse">
+      <feOffset dy="17" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Banner_home_email" transform="translate(75 58)">
+    <g transform="matrix(1, 0, 0, 1, -75, -58)" filter="url(#Retângulo_22)">
+      <rect id="Retângulo_22-2" data-name="Retângulo 22" width="357" height="132" rx="15" transform="translate(75 58)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Grupo_2777" data-name="Grupo 2777" transform="translate(-1176 -2223.674)">
+      <g id="noun-e-mail-5815337" transform="translate(1304.84 2213.854)">
+        <path id="Caminho_3684" data-name="Caminho 3684" d="M74.811,28.828H28.477a3.323,3.323,0,0,0-3.317,3.317V58.711a3.323,3.323,0,0,0,3.317,3.317H74.811a3.323,3.323,0,0,0,3.317-3.317V32.145A3.323,3.323,0,0,0,74.811,28.828Zm-16.4,15.533a.992.992,0,0,0-.1.086L51.93,49.936a.433.433,0,0,1-.58,0L29.63,31.251H73.642ZM42.521,45.53,27.583,58.389V32.678Zm1.858,1.6,5.395,4.642a2.861,2.861,0,0,0,1.866.7,2.9,2.9,0,0,0,1.874-.7l5.638-4.854,4.579,3.936L73.893,59.6h-44Zm20.936,1.9-4.3-3.7L75.7,32.686V57.973ZM25.059,30.035a1.216,1.216,0,0,1-1.215,1.215H10.4a1.215,1.215,0,1,1,0-2.431H23.851A1.22,1.22,0,0,1,25.059,30.035Zm0,8.978a1.216,1.216,0,0,1-1.215,1.215H1.715a1.215,1.215,0,0,1,0-2.431H23.851A1.215,1.215,0,0,1,25.059,39.014Zm0,8.97A1.216,1.216,0,0,1,23.843,49.2H15.406a1.215,1.215,0,0,1,0-2.431h8.437A1.221,1.221,0,0,1,25.059,47.984Z" transform="translate(0.66 0)" fill="#fff"/>
+      </g>
+      <text id="Via_E-mail" data-name="Via E-mail" transform="translate(1330 2291.881)" fill="#fff" font-size="10" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="0">Via E-mail</tspan></text>
+      <g id="Grupo_2776" data-name="Grupo 2776" transform="translate(-35 22.881)">
+        <rect id="Retângulo_23" data-name="Retângulo 23" width="168" height="30" rx="15" transform="translate(1306 2283)" fill="#17c6db"/>
+        <g id="Grupo_2775" data-name="Grupo 2775" transform="translate(1316.117 2290.684)">
+          <text id="Acesso_ao_formulário" data-name="Acesso ao formulário" transform="translate(26.932 11)" fill="#fcfcfc" font-size="11" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">Acesso ao formulário</tspan></text>
+          <g id="noun-arrow-2094738" transform="translate(0 1.773)">
+            <path id="Caminho_3584" data-name="Caminho 3584" d="M9.91,14.809a.515.515,0,1,0-.726.726l3.7,3.707H.648a.517.517,0,0,0,0,1.032H12.887l-3.709,3.7a.525.525,0,0,0,0,.726.512.512,0,0,0,.726,0l4.587-4.587a.5.5,0,0,0,0-.726Z" transform="translate(-0.159 -14.624)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
