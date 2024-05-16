@@ -69,6 +69,8 @@ $result3 = $conn->query($sql3);
                         while ($row = $result->fetch_assoc()) {
                             if ($row['status_etapa'] == 'Não iniciou') {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo_desativado.png' />";
+                            } elseif ($row['status_etapa'] == 'Em Andamento') {
+                                echo "<img src='assets/images/icons/Icon_Linhatempo_em_andamento.png' />";
                             } else {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo.png' />";
                             }
@@ -105,6 +107,8 @@ $result3 = $conn->query($sql3);
                         while ($row3 = $result2->fetch_assoc()) {
                             if ($row3['status_etapa'] == 'Não iniciou') {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo_desativado.png' />";
+                            } elseif ($row3['status_etapa'] == 'Em Andamento') {
+                                echo "<img src='assets/images/icons/Icon_Linhatempo_em_andamento.png' />";
                             } else {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo.png' />";
                             }
@@ -140,6 +144,8 @@ $result3 = $conn->query($sql3);
                         while ($row5 = $result3->fetch_assoc()) {
                             if ($row5['status_etapa'] == 'Não iniciou') {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo_desativado.png' />";
+                            } elseif ($row5['status_etapa'] == 'Em Andamento') {
+                                echo "<img src='assets/images/icons/Icon_Linhatempo_em_andamento.png' />";
                             } else {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo.png' />";
                             }
@@ -247,30 +253,34 @@ $result3 = $conn->query($sql3);
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
                         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
                         crossorigin="anonymous"></script>
-                        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+                        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+                        crossorigin="anonymous"></script>
+                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+                        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+                        crossorigin="anonymous"></script>
                     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
                     <script>
-                        $(document).ready(function() {
+                        $(document).ready(function () {
                             var $searchOverlay = $("#search-overlay");
                             var $searchPopup = $("#search-popup");
                             var $searchIcon = $("#search-icon");
                             var $searchInput = $("#search-input");
 
-                            $searchIcon.on("click", function(event) {
+                            $searchIcon.on("click", function (event) {
                                 $searchOverlay.show();
                                 $searchPopup.show();
                                 $searchInput.focus();
                                 event.stopPropagation();
                             });
 
-                            $(document).on("click", function(event) {
+                            $(document).on("click", function (event) {
                                 if (!$(event.target).closest("#search-popup").length && !$(event.target).is("#search-input")) {
                                     $searchOverlay.hide();
                                     $searchPopup.hide();
                                 }
                             });
-                            $searchPopup.on("click", function(event) {
+                            $searchPopup.on("click", function (event) {
                                 event.stopPropagation();
                             });
                         });
