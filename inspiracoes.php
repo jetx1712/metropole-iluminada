@@ -71,7 +71,7 @@
                     <img src="assets/images/logo-rodape.png" />
                 </div>
                 <div>
-                    <label>Nova Energia - 2024 | Todos os direitos reservados.<label>
+                    <label>Metrópole +Iluminada - 2024 | Todos os direitos reservados.<label>
                 </div>
             </div>
         </div>

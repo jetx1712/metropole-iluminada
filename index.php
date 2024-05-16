@@ -38,7 +38,7 @@
                     <div class="bloco">
                         <img src="assets/images/Foto_Conceito.jpg" />
                         <label class="titulo-bloco">Conceito do projeto</label>
-                        <p class="paragrafo-bloco">Entenda o que significam os conceitos que permeiam o projeto <strong>Metrópole+Iluminada</strong>;</p>
+                        <p class="paragrafo-bloco">Entenda o que significam os conceitos que permeiam o projeto <strong>Metrópole+Iluminada</strong>.</p>
                         <a class="saiba-mais" href="conceito.php"><i class="fa-solid fa-arrow-right"></i> Saiba mais</a>
 
                     </div>
@@ -73,7 +73,7 @@
                     <div class="col-md-5 boneco">
                         <div>
                             <h2>Confira a linha do tempo do projeto</h2>
-                            <label id="nova-energia">Metrópole</label><br>
+                            <label id="nova-energia">Metrópole + Iluminada</label><br>
                             <a class="saiba-mais" href="linha-tempo.php"><i class="fa-solid fa-arrow-right"></i> Ver
                                 agora</a>
                         </div>
@@ -85,7 +85,7 @@
     <section id="contato">
         <div class="container">
             <h1>Entre com contato conosco.</h1>
-            <p style="margin-bottom: 50px">Abaixo segue os canais de comunicação do projeto</p>
+            <p style="margin-bottom: 50px">Fale conosco para saber mais sobre o projeto</p>
             <div class="alinha-blocos">
                 <div class="col-md-12 blocos">
                     <div class="col-md-4 blocos">

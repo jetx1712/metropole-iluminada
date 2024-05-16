@@ -43,7 +43,7 @@
                         Caxias, Guapimirim, Itaboraí, Itaguaí, Japeri, Magé, Maricá, Mesquita, Nilópolis, Niterói,
                         Paracambi, Petrópolis, Queimados, Rio Bonito, São Gonçalo, Seropédica e Tanguá, por meio de uma
                         Parceria Público-Privada (PPP).
-                    </p>
+                    </p><br>
                     <p class="paragrafo-conteudo">
                         Com base em casos bem-sucedidos em cidades que conduziram iniciativas de modernização e
                         eficientização energética, o IRM prevê mais segurança, redução no número de acidentes e promoção
@@ -57,7 +57,7 @@
     <section id="beneficios">
         <div class="container">
             <div class="col-md-12">
-                <h1>Os Benefícios ?</h1>
+                <h1>Os benefícios ?</h1>
                 <div class="beneficios">
                     <div class="col-md-6 conteudo-master">
                         <div class="conteudo-beneficio">
@@ -76,12 +76,12 @@
                         </div>
                         <div class="conteudo-beneficio">
                             <i class="bi bi-arrow-right-circle"></i>
-                            <p class="paragrafo-conteudo">Redução dos custos de operação e manutenção do <span>Parque de
-                                    Iluminação Pública</span>;</p>
+                            <p class="paragrafo-conteudo">Redução dos custos de operação e manutenção do <span>parque de
+                                    iluminação pública</span>;</p>
                         </div>
                         <div class="conteudo-beneficio">
                             <i class="bi bi-arrow-right-circle"></i>
-                            <p class="paragrafo-conteudo">Modernização e ampliação do <span>Parque por meio do uso de
+                            <p class="paragrafo-conteudo">Modernização e ampliação do <span>parque por meio do uso de
                                     novas tecnologias, em especial as baseadas em LED</span>;</p>
                         </div>
                         <div class="conteudo-beneficio">

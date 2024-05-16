@@ -25,7 +25,7 @@
                 </div>
                 <div class="container">
                     <div class="titulo-banner-top">
-                        <h1>O que significa <br>“Parque de Iluminação Pública”?</h1>
+                        <h1>O que significa <br>“parque de iluminação pública”?</h1>
                     </div>
                 </div>
             </div>
@@ -36,9 +36,9 @@
             <div class="col-md-12">
                 <div class="">
                     <img class="img-conceito" src="assets/images/Imagem_Eficiencia_energetica.png" />
-                    <p class="paragrafo-conteudo">O projeto Metrópole+Iluminada vai sugerir a modernização dos Parques
-                        de Iluminação Pública de parte da Região Metropolitana do Rio de Janeiro. Mas o que significa
-                        Parque de Iluminação Pública?
+                    <p class="paragrafo-conteudo">O projeto Metrópole+Iluminada vai sugerir a modernização dos parques
+                        de iluminação pública de parte da Região Metropolitana do Rio de Janeiro. Mas o que significa
+                        parque de iluminação pública?
                     </p>
                 </div>
             </div>
@@ -48,7 +48,7 @@
         <div class="container">
             <div class="col-md-12">
                 <div class="">
-                    <h1>Parque de Iluminação Pública
+                    <h1>Parque de iluminação pública
                     </h1>
                     <img class="img-conceito" src="assets/images/Imagem_transicao_energetica.png" />
                     <p class="paragrafo-conteudo">É o conjunto composto pela luminária e acessórios indispensáveis ao
@@ -59,7 +59,7 @@
                     </p>
                     <br>
                     <p class="paragrafo-conteudo">
-                        Um Parque de Iluminação Pública também é composto por postes de circuitos exclusivos para
+                        Um parque de iluminação pública também é composto por postes de circuitos exclusivos para
                         iluminação pública e seus acessórios indispensáveis como caixas de comando, interruptores,
                         eletrodutos, contatores e demais materiais não citados mas que também integrem as instalações de
                         iluminação pública..
