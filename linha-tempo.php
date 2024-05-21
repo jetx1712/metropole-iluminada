@@ -1,13 +1,6 @@
 <?php require ('backend/conexao.php');
 $sql = "SELECT * FROM `etapa-1`";
 $result = $conn->query($sql);
-
-$sql2 = "SELECT * FROM `etapa-2`";
-$result2 = $conn->query($sql2);
-
-$sql3 = "SELECT * FROM `etapa-3`";
-$result3 = $conn->query($sql3);
-
 ?>
 
 <!DOCTYPE html>
@@ -57,21 +50,14 @@ $result3 = $conn->query($sql3);
                 </div>
             </div>
             <div class="botoes-linha-tempo">
-                <div for="mostra-linha-toggle1" class="col-md-10 botao-linha-tempo">
-                    <label>Desenvolvimento do planejamento e Plano de Comunicação – <span
-                            style="font-weight: 600">dezembro de 2023 a março de 2024</span></label><i
-                        id="icone-toggle1" class="bi bi-arrow-down-circle"></i>
-                </div>
-                <div class="mostra-linha col-md-10" id="mostra-linha-toggle1">
+                <div class="col-md-12">
                     <div class="conteudo-linha-tempo">
                         <?php
                         $rows = [];
                         while ($row = $result->fetch_assoc()) {
                             if ($row['status_etapa'] == 'Não iniciou') {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo_desativado.png' />";
-                            } elseif ($row['status_etapa'] == 'Em Andamento') {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo_em_andamento.png' />";
-                            } else {
+                            }else {
                                 echo "<img src='assets/images/icons/Icon_Linhatempo.png' />";
                             }
                             $rows[] = $row;
@@ -80,90 +66,20 @@ $result3 = $conn->query($sql3);
                     </div>
                     <div class="linha-hr-tempo"></div>
                     <div class="conteudo-interno-linha-tempo">
-                        <?php
+                    <?php
                         foreach ($rows as $row2) {
                             ?>
-                            <div class="col-md-4 texto-interno-linha-tempo">
+                            <div class="col-md-3 texto-interno-linha-tempo">
                                 <label <?php if ($row2['status_etapa'] == 'Não iniciou') {
                                     echo 'style="color: #CECECE"';
                                 } ?>><?php echo $row2['nome_etapa'] ?></label>
-                                <p class="p-pequeno">Março de 2024</p>
-                                <p class="paragrafo-enfatico"><?php echo $row2['status_etapa'] ?></p>
-                            </div>
-                        <?php } ?>
-                    </div>
-                </div>
-
-            </div>
-            <div class="botoes-linha-tempo">
-                <div for="mostra-linha-toggle2" class="col-md-10 botao-linha-tempo">
-                    <label>Análise para Otimização da Gestão – <span style="font-weight: 600">dezembro de 2023 a março
-                            de 2024</span></label><i id="icone-toggle2" class="bi bi-arrow-down-circle"></i>
-                </div>
-                <div class="mostra-linha col-md-10" id="mostra-linha-toggle2">
-                    <div class="conteudo-linha-tempo">
-                        <?php
-                        $rows3 = [];
-                        while ($row3 = $result2->fetch_assoc()) {
-                            if ($row3['status_etapa'] == 'Não iniciou') {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo_desativado.png' />";
-                            } elseif ($row3['status_etapa'] == 'Em Andamento') {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo_em_andamento.png' />";
-                            } else {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo.png' />";
-                            }
-                            $rows3[] = $row3;
-                        }
-                        ?>
-                    </div>
-                    <div class="linha-hr-tempo"></div>
-                    <div class="conteudo-interno-linha-tempo">
-                        <?php
-                        foreach ($rows3 as $row4) {
-                            ?>
-                            <div class="col-md-4 texto-interno-linha-tempo">
-                                <label <?php if ($row4['status_etapa'] == 'Não iniciou') {
-                                    echo 'style="color: #CECECE"';
-                                } ?>><?php echo $row4['nome_etapa'] ?></label>
-                                <p class="p-pequeno">Março de 2024</p>
-                                <p class="paragrafo-enfatico"><?php echo $row4['status_etapa'] ?></p>
-                            </div>
-                        <?php } ?>
-                    </div>
-                </div>
-            </div>
-            <div class="botoes-linha-tempo">
-                <div for="mostra-linha-toggle3" class="col-md-10 botao-linha-tempo">
-                    <label>Modelagem da Transição Energética – <span style="font-weight: 600">dezembro de 2023 a março
-                            de 2024</span></label><i id="icone-toggle3" class="bi bi-arrow-down-circle"></i>
-                </div>
-                <div class="mostra-linha col-md-10" id="mostra-linha-toggle3">
-                    <div class="conteudo-linha-tempo">
-                        <?php
-                        $rows5 = [];
-                        while ($row5 = $result3->fetch_assoc()) {
-                            if ($row5['status_etapa'] == 'Não iniciou') {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo_desativado.png' />";
-                            } elseif ($row5['status_etapa'] == 'Em Andamento') {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo_em_andamento.png' />";
-                            } else {
-                                echo "<img src='assets/images/icons/Icon_Linhatempo.png' />";
-                            }
-                            $rows5[] = $row5;
-                        }
-                        ?>
-                    </div>
-                    <div class="linha-hr-tempo"></div>
-                    <div class="conteudo-interno-linha-tempo">
-                        <?php
-                        foreach ($rows5 as $row6) {
-                            ?>
-                            <div class="col-md-4 texto-interno-linha-tempo">
-                                <label <?php if ($row6['status_etapa'] == 'Não iniciou') {
-                                    echo 'style="color: #CECECE"';
-                                } ?>><?php echo $row6['nome_etapa'] ?></label>
-                                <p class="p-pequeno">Março de 2024</p>
-                                <p class="paragrafo-enfatico"><?php echo $row6['status_etapa'] ?></p>
+                                <p <?php if ($row2['status_etapa'] == 'Não iniciou') {
+                                    echo 'style="background: #EAEAEA"';
+                                }
+                                elseif ($row2['status_etapa'] == 'Concluido') {
+                                    echo 'style="background: #18AF18; color: white"';
+                                }
+                                 ?> class="paragrafo-enfatico"><?php echo $row2['status_etapa'] ?></p>
                             </div>
                         <?php } ?>
                     </div>

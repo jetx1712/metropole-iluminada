@@ -573,7 +573,7 @@ nav {
 .conteudo-linha-tempo {
     display: flex;
     justify-content: space-between;
-    padding: 30px 140px 30px 140px;
+    padding: 30px 120px 30px 120px;
 }
 
 .linha-hr-tempo {
@@ -599,7 +599,7 @@ nav {
 
 .texto-interno-linha-tempo label {
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     max-width: 70%;
     color: #3B4C62;
@@ -621,6 +621,7 @@ nav {
     color: #025884;
     font-family: 'Montserrat';
     font-size: 12px;
+    margin-top: 20px;
 }
 
 .mostra-linha {
