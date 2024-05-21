@@ -27,7 +27,7 @@ function currentPage($page)
     </div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a href="index.php"><img class="logo" src="assets/images/logo.png" /></a>
+            <a href="/"><img class="logo" src="assets/images/logo.png" /></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,25 +35,25 @@ function currentPage($page)
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('projeto.php'); ?>" href="projeto.php">O projeto</a>
+                        <a class="nav-link <?php echo currentPage('projeto.php'); ?>" href="projeto">O projeto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('conceito.php'); ?>" href="conceito.php">Conceito</a>
+                        <a class="nav-link <?php echo currentPage('conceito.php'); ?>" href="conceito">Conceito</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo currentPage('inspiracoes.php'); ?>"
-                            href="inspiracoes.php">Inspirações</a>
+                            href="inspirações">Inspirações</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('linha-tempo.php'); ?>" href="linha-tempo.php">Linha
+                        <a class="nav-link <?php echo currentPage('linha-tempo.php'); ?>" href="linha-tempo">Linha
                             do tempo</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link <?php echo currentPage('downloads.php'); ?>"
-                            href="downloads.php">Downloads</a>
+                            href="downloads">Downloads</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?php echo currentPage('contato.php'); ?>" href="contato.php">Contato</a>
+                        <a class="nav-link <?php echo currentPage('contato.php'); ?>" href="contato">Contato</a>
                     </li>
                 </ul>
             </div>

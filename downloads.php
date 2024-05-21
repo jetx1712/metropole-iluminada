@@ -13,6 +13,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -42,7 +59,7 @@
             <div class="col-md-12 botao-2-estrutura">
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Wokshop do projeto de eficientização e transição energética</label>
+                        <label>Wokshop do projeto de eficientização e transição energética - PDF</label>
                     </div>
                     <a href="assets/documents/workshop-prefeitura.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>
@@ -50,7 +67,7 @@
                 </div>
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Plano de gerenciamento de projeto - METRÓPOLE + ILUMINADA</label>
+                        <label>Plano de gerenciamento de projeto - METRÓPOLE + ILUMINADA - PDF</label>
                     </div>
                     <a href="assets/documents/INDUCTA-Plano-de-Gerencimento-do-Projeto-IRM-IP_METRÓPOLE-+-ILUMINADA.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>
@@ -58,7 +75,7 @@
                 </div>
                 <div class="col-md-10 botao-2-download">
                     <div class="elemento-workshop">
-                        <label>Apresentação inicial</label>
+                        <label>Apresentação inicial do projeto - METRÓPOLE + ILUMINADA - PDF</label>
                     </div>
                     <a href="assets/documents/Apresentacao-inicial.pdf" target="_blank"><div class="elemento-baixar">
                         <label>Baixar</label>

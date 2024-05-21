@@ -109,63 +109,6 @@ $result3 = $conn->query($sql3);
                 } ?>
             </div>
         </form>
-        <hr>
-        <form method="POST" action="ajax-edita-etapa-2.php">
-            <label class="form-control">Análise para Otimização da Gestão – dezembro de 2023 a março de 2024</label>
-            <div class="container">
-            <?php
-                if ($result2->num_rows > 0) {
-                    while ($row2 = $result2->fetch_assoc()) {
-                        ?>
-                        <div class="corpo-form">
-                            <div class="col-md-5">
-                                <h5><?php echo $row2['nome_etapa'] ?></h5>
-                            </div>
-                            <div class="col-md-5">
-                                <select name="status_etapa_2" class="form-control">
-                                    <option value="<?php echo $row2['status_etapa'] ?>" selected disabled>
-                                        <?php echo $row2['status_etapa'] ?></option>
-                                    <option class="form-control">Não iniciou</option>
-                                    <option class="form-control">Em Andamento</option>
-                                    <option class="form-control">Concluído</option>
-                                </select>
-                            </div>
-                            <button style="margin:10px" type="submit" name="id_registro"
-                                value="<?php echo $row2['id_registro'] ?>">Editar</button>
-                        </div>
-                        <hr>
-                    <?php }
-                } ?>
-            </div>
-        </form>
-        <hr>
-        <form method="POST" action="ajax-edita-etapa-3.php">
-            <label class="form-control">Modelagem da Transição Energética – dezembro de 2023 a março de 2024:</label>
-            <div class="container">
-            <?php
-                if ($result3->num_rows > 0) {
-                    while ($row3 = $result3->fetch_assoc()) {
-                        ?>
-                        <div class="corpo-form">
-                            <div class="col-md-5">
-                                <h5><?php echo $row3['nome_etapa'] ?></h5>
-                            </div>
-                            <div class="col-md-5">
-                                <select name="status_etapa_3" class="form-control">
-                                    <option value="<?php echo $row3['status_etapa'] ?>" selected disabled>
-                                        <?php echo $row3['status_etapa'] ?></option>
-                                    <option class="form-control">Não iniciou</option>
-                                    <option class="form-control">Em Andamento</option>
-                                    <option class="form-control">Concluído</option>
-                                </select>
-                            </div>
-                            <button style="margin:10px" type="submit" name="id_registro"
-                                value="<?php echo $row3['id_registro'] ?>">Editar</button>
-                        </div>
-                        <hr>
-                    <?php }
-                } ?>
-        </form>
     </div>
 </body>
 
