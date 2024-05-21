@@ -115,54 +115,6 @@ $result = $conn->query($sql);
             </div>
             <div>
                 <div>
-                    <script>
-                        document.addEventListener("DOMContentLoaded", function () {
-                            const label = document.querySelector("div[for='mostra-linha-toggle1']");
-                            const mostraLinha = document.getElementById("mostra-linha-toggle1");
-                            const icone = document.getElementById("icone-toggle1");
-
-                            label.addEventListener("click", function () {
-                                if (mostraLinha.classList.contains("visivel")) {
-                                    mostraLinha.classList.remove("visivel");
-                                    icone.classList.replace("bi-arrow-up-circle", "bi-arrow-down-circle"); // Troca o ícone para baixo
-                                } else {
-                                    mostraLinha.classList.add("visivel");
-                                    icone.classList.replace("bi-arrow-down-circle", "bi-arrow-up-circle"); // Troca o ícone para cima
-                                }
-                            });
-                        });
-
-                        document.addEventListener("DOMContentLoaded", function () {
-                            const label = document.querySelector("div[for='mostra-linha-toggle2']");
-                            const mostraLinha = document.getElementById("mostra-linha-toggle2");
-                            const icone = document.getElementById("icone-toggle2");
-
-                            label.addEventListener("click", function () {
-                                if (mostraLinha.classList.contains("visivel")) {
-                                    mostraLinha.classList.remove("visivel");
-                                    icone.classList.replace("bi-arrow-up-circle", "bi-arrow-down-circle"); // Troca o ícone para baixo
-                                } else {
-                                    mostraLinha.classList.add("visivel");
-                                    icone.classList.replace("bi-arrow-down-circle", "bi-arrow-up-circle"); // Troca o ícone para cima
-                                }
-                            });
-                        });
-                        document.addEventListener("DOMContentLoaded", function () {
-                            const label = document.querySelector("div[for='mostra-linha-toggle3']");
-                            const mostraLinha = document.getElementById("mostra-linha-toggle3");
-                            const icone = document.getElementById("icone-toggle3");
-
-                            label.addEventListener("click", function () {
-                                if (mostraLinha.classList.contains("visivel")) {
-                                    mostraLinha.classList.remove("visivel");
-                                    icone.classList.replace("bi-arrow-up-circle", "bi-arrow-down-circle"); // Troca o ícone para baixo
-                                } else {
-                                    mostraLinha.classList.add("visivel");
-                                    icone.classList.replace("bi-arrow-down-circle", "bi-arrow-up-circle"); // Troca o ícone para cima
-                                }
-                            });
-                        });
-                    </script>
                     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
                         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
                         crossorigin="anonymous"></script>
