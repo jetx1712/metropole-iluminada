@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nova Energia - Contato</title>
-     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
-     <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Inclua o link para o arquivo CSS do Bootstrap -->
+    <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -62,22 +62,25 @@
                     <div class="container">
                         <div class="col-md-12 footer-form">
                             <div class="col-md-6">
-                                <form class="form-contato" method="POST" id="formulario_envio">
+                                <form class="form-contato" id="formulario_email" method="POST">
                                     <label>Nome:</label>
                                     <input class="form-control" type="text" name="nome" placeholder="Insira seu nome" />
                                     <label>Email:</label>
-                                    <input class="form-control" type="text" name="email" placeholder="Insira seu email" />
+                                    <input class="form-control" type="text" name="email"
+                                        placeholder="Insira seu email" />
                                     <label>Telefone:</label>
-                                    <input class="form-control" type="number" min="1" name="telefone" placeholder="Insira seu telefone" />
+                                    <input class="form-control" type="number" min="1" name="telefone"
+                                        placeholder="Insira seu telefone" />
                                     <label>Assunto:</label>
-                                    <textarea class="form-control" name="mensagem" placeholder="Escreva aqui sua mensagem"></textarea>
+                                    <textarea class="form-control" name="mensagem"
+                                        placeholder="Escreva aqui sua mensagem"></textarea>
                                     <div class="footer-form-contato">
                                         <div class="footer-checkbox">
                                             <input class=" form-control form-check-input" type="checkbox" />
                                             <span>Quero receber novidades do projeto por e-mail e Whatsapp</span>
                                         </div>
                                         <div>
-                                            <button type="button" id="btnEnviar" class="btn-enviar">Enviar</button>
+                                            <button type="button" id="enviar" class="btn-enviar">Enviar</button>
                                         </div>
                                     </div>
                                 </form>
@@ -134,8 +137,8 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>
-        $("#btnEnviar").click(function () {
-            var formData = new FormData(document.getElementById("formulario_envio"));
+        $("#enviar").click(function () {
+            var formData = new FormData(document.getElementById("formulario_email"));
 
             $.ajax({
                 type: "POST",
@@ -143,12 +146,10 @@
                 data: formData,
                 processData: false,
                 contentType: false,
-                beforeSend: function () {
-                    $("#loader").show();
-                }
+                enctype: 'multipart/form-data',
             })
                 .done(function (response) {
-                    $("#loader").hide();
+                    console.log(response);
                     if (response.sucesso) {
                         Swal.fire({
                             position: 'top',
@@ -161,10 +162,10 @@
                         Swal.fire({
                             position: 'top',
                             icon: 'warning',
-                            title: 'Não foi possível enviar sua mensagem!',
+                            title: 'Não foi possível enviar sua mensagem',
                             text: response.erro,
                             showConfirmButton: false,
-                            timer: 3500
+                            timer: 2500
                         });
                     }
                 });

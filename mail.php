@@ -1,6 +1,4 @@
 <?php
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Verifica se todos os campos do formulário estão preenchidos
     if (!empty($_POST['nome']) && !empty($_POST['email']) && !empty($_POST['telefone']) && !empty($_POST['mensagem'])) {
         // Informações do formulário
         $nome = $_POST['nome'];
@@ -38,5 +36,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         header('Content-Type: application/json');
         echo json_encode(array('sucesso' => false, 'erro' => 'Todos os campos do formulário devem ser preenchidos.'));
     }
-}
-?>
