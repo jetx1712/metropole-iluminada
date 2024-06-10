@@ -95,7 +95,7 @@
                                         <div class="bloco-interno-footer">
                                             <div class="bloquinho-contato">
                                                 <img src="assets/images/icons/Banner_home_Tel-01.png" />
-                                                <h1>21 2000-1000</h1>
+                                                <h1>21 97030-4558</h1>
                                                 <span>De segunda à sexta, das 09:00h ás 17:00h</span>
                                             </div>
                                         </div>
@@ -103,7 +103,7 @@
                                             <div class="bloquinho-contato">
                                                 <img src="assets/images/icons/whatsapp.png" />
                                                 <span>WhatsApp</span>
-                                                <h1>21 2000-1000</h1>
+                                                <h1>21 97030-4558</h1>
                                             </div>
                                         </div>
                                     </div>

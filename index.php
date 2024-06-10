@@ -113,7 +113,7 @@
                     <div class="col-md-4 blocos">
                         <div class="bloco">
                             <img src="assets/images/icons/Banner_home_Tel-01.png" />
-                            <span class="titulo-contato">21 2000-1000</span>
+                            <span class="titulo-contato">21 97030-4558</span>
                             <p class="paragrafo-contato">De segunda a sexta, das 09:00h as 17:00h</p>
                         </div>
                     </div>
@@ -121,7 +121,7 @@
                         <div class="bloco">
                             <img src="assets/images/icons/whatsapp.png" />
                             <p style="margin-top: 6px" class="paragrafo-contato">WhatsApp</p>
-                            <span class="titulo-contato">21 2000-1000</span>
+                            <span class="titulo-contato">21 97030-4558</span>
 
                         </div>
                     </div>
