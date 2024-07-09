@@ -8,7 +8,7 @@
         $mensagem = $_POST['mensagem'];
 
         // Configurações de e-mail
-        $destinatario = 'david.trindade@inducta.com.br'; // Corrija o endereço de e-mail
+        $destinatario = 'ouvidoria@irm.rj.gov.br'; // Corrija o endereço de e-mail
         $remetente = $email; // Insira o endereço de e-mail que será exibido como remetente
         $cabecalhos = "Cliente: $remetente" . "\r\n" .
             "Reply-To: $email" . "\r\n" .

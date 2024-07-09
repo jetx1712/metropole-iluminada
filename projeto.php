@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova Energia</title>
+    <title>Metropole+iluminada - O Projeto</title>
     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
@@ -42,11 +42,27 @@
                 </div>
                 <div id="botao-player">
                     <i class="bi bi-play-circle"></i>
-                    <label>Assista o video do projeto</label>
+                    <label>Assista ao video do projeto</label>
                 </div>
             </div>
         </div>
     </section>
+     <!-- Modal -->
+     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed/T-i6MtxFZeo?si=Jyln-uLdyDQP-Lzu&amp;start=1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <section id="conteudo-titulo">
         <div class="container">
             <div class="col-md-12">
@@ -203,6 +219,19 @@
                             });
                             $searchPopup.on("click", function (event) {
                                 event.stopPropagation();
+                            });
+                        });
+                    </script>
+                    <script>
+                        $(document).ready(function () {
+                            $('#botao-player').click(function () {
+                                var videoSrc = 'https://www.youtube.com/embed/Y4goaZhNt4k?si=AjAMcJv1hFz0QwlO';
+                                $('#video').attr('src', videoSrc);
+                                $('#videoModal').modal('show');
+                            });
+
+                            $('#videoModal').on('hidden.bs.modal', function () {
+                                $('#video').attr('src', '');
                             });
                         });
                     </script>
