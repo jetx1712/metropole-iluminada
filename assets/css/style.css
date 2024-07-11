@@ -892,3 +892,11 @@ nav {
 #conteudo-contato{
     padding-bottom: 200px;
 }
+.modal-body iframe{
+    width: 100%;
+    padding: 10px;
+    height: 20vw;
+}
+.modal-dialog{
+    max-width: 800px !important;
+} 

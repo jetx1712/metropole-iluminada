@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova Energia - Conceito</title>
+    <title>Metropole+Iluminada - Inspirações</title>
     <!-- Inclua o link para o arquivo CSS do Bootstrap -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
